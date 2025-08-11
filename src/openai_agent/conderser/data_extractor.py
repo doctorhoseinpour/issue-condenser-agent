@@ -1,5 +1,5 @@
-from wrappers.commit_wrapper import CommitWrapper
-from wrappers.issue_wrapper import IssueWrapper
+from openai_agent.wrappers.commit_wrapper import CommitWrapper
+from openai_agent.wrappers.issue_wrapper import IssueWrapper
 from typing import Any
 
 

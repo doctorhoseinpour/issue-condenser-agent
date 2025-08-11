@@ -1,6 +1,6 @@
 from pydantic import BaseModel, Field
 
-from conderser.data_extractor import DataExtractor
+from openai_agent.conderser.data_extractor import DataExtractor
 
 
 class Finish(BaseModel):

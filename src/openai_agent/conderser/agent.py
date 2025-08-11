@@ -5,12 +5,12 @@ from openai.types.chat import ParsedChatCompletion
 from openai import NotGiven, NOT_GIVEN
 import openai
 from pydantic import BaseModel
-from conderser.data_extractor import DataExtractor
-from wrappers.commit_wrapper import CommitWrapper
-from schema.control import Finish
-from prompt import MAX_ITERATIONS
-from wrappers.issue_wrapper import IssueWrapper
-import prompt
+from openai_agent.conderser.data_extractor import DataExtractor
+from openai_agent.wrappers.commit_wrapper import CommitWrapper
+from openai_agent.schema.control import Finish
+from openai_agent.prompt import MAX_ITERATIONS
+from openai_agent.wrappers.issue_wrapper import IssueWrapper
+from openai_agent import prompt
 
 
 class Agent:
@@ -97,5 +97,6 @@ class Agent:
                     return function(self.extractor)
 
         return None
+
 
 

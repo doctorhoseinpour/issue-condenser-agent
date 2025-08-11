@@ -1,6 +1,6 @@
 from pydantic import BaseModel, Field
-from conderser.data_extractor import DataExtractor
-from wrappers.issue_wrapper import CommentMeta, Pagination, LabelMeta
+from openai_agent.conderser.data_extractor import DataExtractor
+from openai_agent.wrappers.issue_wrapper import CommentMeta, Pagination, LabelMeta
 from typing import List
 from datetime import datetime
 

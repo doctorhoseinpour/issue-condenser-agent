@@ -1,6 +1,6 @@
 from pydantic import BaseModel
-from conderser.data_extractor import DataExtractor
-from wrappers.commit_wrapper import CommitMeta
+from openai_agent.conderser.data_extractor import DataExtractor
+from openai_agent.wrappers.commit_wrapper import CommitMeta
 
 
 class CommitMetaData(BaseModel):
